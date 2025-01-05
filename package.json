@@ -8,13 +8,18 @@
     "build": "tsc -p tsconfig.json",
     "build:watch": "tsc -w -p tsconfig.json",
     "lint": "eslint src/",
-    "bundle": "tsup"
+    "bundle": "tsup",
+    "upload": "npm run bundle && npm publish"
   },
   "keywords": [
     "deezer"
   ],
   "author": "0xCAB",
   "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xCAB/deezer-export-ts.git"
+  },
   "devDependencies": {
     "@eslint/js": "^9.17.0",
     "@types/node": "^22.10.3",

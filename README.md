@@ -16,3 +16,9 @@ npm install
 npm run build
 npm run start -- -u <deezer_user_id> -o <output_folder>
 ```
+
+Run following command to see all commandline options:
+
+```sh
+npm run start -- --help
+```
