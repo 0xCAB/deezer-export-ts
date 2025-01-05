@@ -1,0 +1,6 @@
+
+GET https://api.deezer.com/user/<userid>/playlists?limit=200
+###
+
+GET https://api.deezer.com/playlist/<playlistid>?limit=1000
+###
